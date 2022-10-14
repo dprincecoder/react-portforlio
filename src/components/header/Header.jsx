@@ -10,6 +10,7 @@ const Header = () => {
         <h5>Hello I'm</h5>
         <h1>Azubuike Prince</h1>
         <h5 className="text-light anim">Frontend Developer</h5>
+        <small className="text-light">Nigerian </small>
         <CTA />
         <Connects />
 

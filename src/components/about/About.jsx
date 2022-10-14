@@ -40,9 +40,6 @@ const About = () => {
           </div>
 
           <p>
-            I'm Prince Azubuike, I hail from{" "}
-            <strong>Isi-Ala_ngwa North, Abia State, Nigeria</strong>
-            <br />
             My Professional Experience, includes bringing the{" "}
             <strong>Wireframes</strong> of the <strong>UI/UX Designer</strong>{" "}
             to Life through my gained skillSet. As well as collaborating with
