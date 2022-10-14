@@ -29,13 +29,6 @@ const Nav = () => {
       >
         <BiBook />
       </a>
-      {/* <a
-        className={activeNav === "#a" ? "active" : ""}
-        onClick={() => setActiveNav("#")}
-        href="#experience"
-      >
-        <BiBook />
-      </a> */}
       <a
         className={activeNav === "services" ? "active" : ""}
         onClick={() => setActiveNav("services")}

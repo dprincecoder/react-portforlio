@@ -3,7 +3,7 @@ import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
 
-import './about.css'
+import "./about.css";
 
 const About = () => {
   return (
@@ -14,7 +14,9 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-img">
-            <img src="assets/pic-2.jpg" alt="me" />
+            <div className="about-img-bg">
+              <img src="assets/myphoto.png" alt="me" />
+            </div>
           </div>
         </div>
 
@@ -28,20 +30,36 @@ const About = () => {
             <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Clients</h5>
-              <small>50+ Worldwide</small>
+              <small>10+ Worldwide</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>100+ Completed</small>
+              <small>20+ Completed</small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, perspiciatis molestiae porro pariatur quod cum autem excepturi vitae sapiente dolorem labore ea, quia reprehenderit eveniet tempora dignissimos nisi nobis. Libero.
+            I'm Prince Azubuike, I hail from{" "}
+            <strong>Isi-Ala_ngwa North, Abia State, Nigeria</strong>
+            <br />
+            My Professional Experience, includes bringing the{" "}
+            <strong>Wireframes</strong> of the <strong>UI/UX Designer</strong>{" "}
+            to Life through my gained skillSet. As well as collaborating with
+            the <strong>Backend Team</strong> to create a stellar finished
+            Product.
+            <br />I have keen into being <strong>Customer</strong> centric, I
+            have proven to be time cautious to <strong>Customers</strong> demand
+            and project target. I would love to work in a{" "}
+            <strong>Company</strong>, where i can join a team of elite
+            developers to release the <strong>potential passion</strong> and{" "}
+            <strong>problem solvilng skills</strong> in me, and help make the
+            word a better place.
           </p>
 
-          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+          <a href="#contact" className="btn btn-primary">
+            Let's Talk
+          </a>
         </div>
       </div>
     </section>
