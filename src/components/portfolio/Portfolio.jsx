@@ -1,8 +1,12 @@
 import React from "react";
+import AwesomeSlider from "react-awesome-slider";
+import withAutoplay from "react-awesome-slider/dist/autoplay";
+import "react-awesome-slider/dist/styles.css";
 import "./portfolio.css";
 import { portfolioData } from "./data";
 
 const Portfolio = () => {
+  const AutoplaySlider = withAutoplay(AwesomeSlider);
   return (
     <section id="portfolio">
       <h5>My Recent Work</h5>
@@ -14,17 +18,39 @@ const Portfolio = () => {
             return (
               <article className="portfolio__item" key={id}>
                 <div className="portfolio__item-img">
-                  <img src="assets/myphoto.png" alt="" />
+                  <AutoplaySlider
+                    // play={true}
+                    infinte={true}
+                    mobileTouch={true}
+                    cancelOnInteraction={true} // should stop playing on user interaction
+                    interval={6000}
+                    organicArrows={true}
+                    // buttons={false}
+                  >
+                    {img.map(({ img, id }) => {
+                      return (
+                        <div
+                          data-src={img}
+                          // alt={title}
+                          // key={id}
+                          className="portfolio__img"
+                        />
+                      );
+                    })}
+                  </AutoplaySlider>
                 </div>
                 <h3>{title}</h3>
                 <div className="portfolio__item-desc">
                   <p>{desc}</p>
                 </div>
+                {/* <div className="portfolio__items_typo">
+                    <div className="portfolio__item_badge">Hover</div>
+                </div> */}
                 <div className="portfolio__item-tags">
                   <div className="portfolio__item-tags-name-wrap">
-                    <small>--------</small>
+                    {/* <small>--------</small> */}
                     <strong className="portfolio__item-tags-name">TAGs</strong>
-                    <small>--------</small>
+                    {/* <small>--------</small> */}
                   </div>
                   <ul className="portfolio__item-tags-list">
                     {tags.map(({ id, tag }) => {
@@ -45,7 +71,12 @@ const Portfolio = () => {
                   >
                     Source Code
                   </a>
-                  <a href={live} className="btn btn-primary" target="_blank" rel="noreferrer">
+                  <a
+                    href={live}
+                    className="btn btn-primary"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     View Live
                   </a>
                 </div>
