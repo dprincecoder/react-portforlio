@@ -33,7 +33,7 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials" rel="noreferrer" target="_blank">
-        <a href="https://web.facebok.com/prince.azubuike.5621">
+        <a href="https://web.facebook.com/prince.azubuike.5621">
           <FaFacebookF />
         </a>
         <a
