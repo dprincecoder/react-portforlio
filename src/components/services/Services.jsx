@@ -1,10 +1,10 @@
 import React from "react";
 import { BiCheck } from "react-icons/bi";
-import './services.css'
+import "./services.css";
 
 const Services = () => {
   return (
-     <section id='services'>
+    <section id="services">
       <h5>what I offer</h5>
       <h2>Services</h2>
 
@@ -16,19 +16,15 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>lorem akpgo;ijesiogjk;dfyhontj.nkmmsdghnke9el</p>
+              <p>On-page SEO</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>lorem akpgo;ijesiogjk;dfyhontj.nkmmsdghnke9el</p>
+              <p>Off-page SEO</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>lorem akpgo;ijesiogjk;dfyhontj.nkmmsdghnke9el</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>lorem akpgo;ijesiogjk;dfyhontj.nkmmsdghnke9el</p>
+              <p>SEO Audit</p>
             </li>
           </ul>
         </article>
@@ -40,23 +36,24 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>lorem akpgo;ijesiogjk;dfyhontj.nkmmsdghnke9el</p>
+              <p>Web development</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>lorem akpgo;ijesiogjk;dfyhontj.nkmmsdghnke9el</p>
+              <p>Convert PSD, Figma to website</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>lorem akpgo;ijesiogjk;dfyhontj.nkmmsdghnke9el</p>
+              <p>Reactjs web development</p>
+            </li>
+
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Landing Page</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>lorem akpgo;ijesiogjk;dfyhontj.nkmmsdghnke9el</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>lorem akpgo;ijesiogjk;dfyhontj.nkmmsdghnke9el</p>
+              <p>Bug Fixes</p>
             </li>
           </ul>
         </article>
@@ -68,23 +65,19 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>lorem akpgo;ijesiogjk;dfyhontj.nkmmsdghnke9el</p>
+              <p>Agency website Template</p>
+            </li>
+
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>HTML5 Landing Page template</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>lorem akpgo;ijesiogjk;dfyhontj.nkmmsdghnke9el</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>lorem akpgo;ijesiogjk;dfyhontj.nkmmsdghnke9el</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>lorem akpgo;ijesiogjk;dfyhontj.nkmmsdghnke9el</p>
+              <p>Blog Post template</p>
             </li>
           </ul>
         </article>
-        {/* end of template creation */}
       </div>
     </section>
   );

@@ -4,7 +4,7 @@ import "./experience.css";
 
 const Experience = () => {
   return (
-    <section>
+    <section id="experience">
       <h5>What Skils I Have</h5>
       <h2>My Experience</h2>
 
@@ -47,7 +47,7 @@ const Experience = () => {
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience-details-icon" />
-              <h4>JQuery.js</h4>
+              <h4>Vite.js</h4>
             </article>
           </div>
         </div>

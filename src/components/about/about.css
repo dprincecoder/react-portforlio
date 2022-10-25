@@ -6,7 +6,7 @@
 
 .about__me {
   width: 100%;
-  aspect-ratio: 1/1;
+  /* aspect-ratio: 1/1; */
   border-radius: 2rem;
   -webkit-border-radius: 2rem;
   -moz-border-radius: 2rem;
@@ -20,6 +20,7 @@
   );
   display: grid;
   place-items: center;
+  height: 357px;
 }
 
 .about__me-img {
@@ -39,6 +40,7 @@
   -moz-transition: var(--transition);
   -ms-transition: var(--transition);
   -o-transition: var(--transition);
+  height: 100%;
 }
 
 .about__me-img:hover {
@@ -52,7 +54,6 @@
 .about-img-bg {
   width: 100%;
   background: var(--color-primary);
-  height: 357px;
   overflow: hidden;
 }
 
