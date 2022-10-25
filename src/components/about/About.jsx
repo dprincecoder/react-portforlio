@@ -40,17 +40,17 @@ const About = () => {
           </div>
 
           <p>
-            My Professional Experience, includes bringing the{" "}
+           My Professional Experience includes bringing the{" "}
             <strong>Wireframes</strong> of the <strong>UI/UX Designer</strong>{" "}
-            to Life through my gained skillSet. As well as collaborating with
+            to Life through my gained skillSet in JavaScript frameworks and libraries. As well as collaborating with
             the <strong>Backend Team</strong> to create a stellar finished
             Product.
-            <br />I have keen into being <strong>Customer</strong> centric, I
-            have proven to be time cautious to <strong>Customers</strong> demand
-            and project target. I would love to work in a{" "}
+            <br />I have keen into being <strong>Customer-centric,</strong> I
+            have proven to be time cautious to <strong>Customers</strong> demands
+            and project targets. I would love to work in a{" "}
             <strong>Company</strong>, where i can join a team of elite
-            developers to release the <strong>potential passion</strong> and{" "}
-            <strong>problem solvilng skills</strong> in me, and help make the
+            developers to release my <strong>potential, passion</strong> and{" "}
+            <strong>problem-solving skills</strong> in me, and help make the
             word a better place.
           </p>
 
