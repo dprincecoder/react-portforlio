@@ -31,7 +31,7 @@ const Connects = () => {
         <BsTwitter />
       </a>
       <a
-        href="https://web.facebok.com/prince.azubuike.5621"
+        href="https://web.facebook.com/prince.azubuike.5621"
         target="_blank"
         rel="noreferrer"
       >
