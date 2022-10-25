@@ -20,7 +20,7 @@
   );
   display: grid;
   place-items: center;
-  height: 357px;
+  height: fit-content;
 }
 
 .about__me-img {
@@ -120,6 +120,7 @@
 
   .about__content p {
     margin: 1rem 0 1.5rem;
+    text-align: justify;
   }
 
   .about__content {
@@ -128,14 +129,14 @@
 }
 
 /* ===============  MEDIA QUERIES (SMALL DEVICES)  ============ */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 670px) {
   .about__me {
     width: 65%;
     margin: 0 auto 3rem;
   }
 
-  .about-img-bg {
-    height: 220px;
+  .about__me {
+    height: fit-content;
     /* width: 100%; */
   }
 

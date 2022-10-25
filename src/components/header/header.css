@@ -126,7 +126,12 @@ header {
   header {
     height: 100vh;
   }
-  .header-socials,
+  .header-socials {
+    flex-direction: initial;
+    top: 0;
+    left: 35%;
+    margin: 2rem 0;
+  }
   .scroll-down {
     display: none;
   }

@@ -1,12 +1,19 @@
 import React from "react";
-import AwesomeSlider from "react-awesome-slider";
-import withAutoplay from "react-awesome-slider/dist/autoplay";
+// import AwesomeSlider from "react-awesome-slider";
+// import withAutoplay from "react-awesome-slider/dist/autoplay";
 import "react-awesome-slider/dist/styles.css";
+import "swiper/css/bundle";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Navigation } from "swiper";
+
+// Import Swiper styles
+import "swiper/css";
 import "./portfolio.css";
 import { portfolioData } from "./data";
 
 const Portfolio = () => {
-  const AutoplaySlider = withAutoplay(AwesomeSlider);
+  // const AutoplaySlider = withAutoplay(AwesomeSlider);
   return (
     <section id="portfolio">
       <h5>My Recent Work</h5>
@@ -18,7 +25,7 @@ const Portfolio = () => {
             return (
               <article className="portfolio__item" key={id}>
                 <div className="portfolio__item-img">
-                  <AutoplaySlider
+                  {/* <AutoplaySlider
                     // play={true}
                     infinte={true}
                     mobileTouch={true}
@@ -37,7 +44,27 @@ const Portfolio = () => {
                         />
                       );
                     })}
-                  </AutoplaySlider>
+                  </AutoplaySlider> */}
+                  <Swiper
+                    spaceBetween={30}
+                    slidesPerView={1}
+                    // autoplay={{
+                    //   delay: 2500,
+                    //   disableOnInteraction: false,
+                    // }}
+                    modules={[Autoplay, Navigation]}
+                    navigation
+                  >
+                    {img.map(({ img, id }) => {
+                      return (
+                        <SwiperSlide
+                          key={id}
+                        >
+                          <img src={img} alt="" className="portfolio__img" />
+                        </SwiperSlide>
+                      );
+                    })}
+                  </Swiper>
                 </div>
                 <h3>{title}</h3>
                 <div className="portfolio__item-desc">
@@ -46,12 +73,8 @@ const Portfolio = () => {
                 {/* <div className="portfolio__items_typo">
                     <div className="portfolio__item_badge">Hover</div>
                 </div> */}
-                <div className="portfolio__item-tags">
-                  <div className="portfolio__item-tags-name-wrap">
-                    {/* <small>--------</small> */}
-                    <strong className="portfolio__item-tags-name">TAGs</strong>
-                    {/* <small>--------</small> */}
-                  </div>
+                {<div className="portfolio__item-tags">
+                  <p className="portfolio__item-tags-name">TAGs</p>
                   <ul className="portfolio__item-tags-list">
                     {tags.map(({ id, tag }) => {
                       return (
@@ -61,7 +84,7 @@ const Portfolio = () => {
                       );
                     })}
                   </ul>
-                </div>
+                </div>}
                 <div className="portfolio__item-cta">
                   <a
                     href={code}
