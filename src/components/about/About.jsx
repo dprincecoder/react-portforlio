@@ -39,20 +39,16 @@ const About = () => {
             </article>
           </div>
 
-          <p>
-           My Professional Experience includes bringing the{" "}
-            <strong>Wireframes</strong> of the <strong>UI/UX Designer</strong>{" "}
-            to Life through my gained skillSet in JavaScript frameworks and libraries. As well as collaborating with
-            the <strong>Backend Team</strong> to create a stellar finished
-            Product.
-            <br />I have keen into being <strong>Customer-centric,</strong> I
-            have proven to be time cautious to <strong>Customers</strong> demands
-            and project targets. I would love to work in a{" "}
-            <strong>Company</strong>, where i can join a team of elite
-            developers to release my <strong>potential, passion</strong> and{" "}
-            <strong>problem-solving skills</strong> in me, and help make the
-            word a better place.
-          </p>
+          
+<p>
+            A frontend developer with over 3 years of Professional Experience in bringing the  <strong>Wireframes</strong>
+            of the <strong>UI/UX Designer</strong> to Life through  JavaScript frameworks and libraries. As well as collaborating
+            with the <strong>Backend Team</strong> to create a stellar finished Product.
+
+            I enjoy being <strong>challenged</strong> and engaging with projects that require me to work outside my <strong>comfort and 
+            knowledge set</strong>, as continuing to learn new languages and development techniques is important to me and the 
+            success of any organization.
+            </p>
 
           <a href="#contact" className="btn btn-primary">
             Let's Talk
