@@ -41,7 +41,7 @@ const About = () => {
 
           
 <p>
-            A frontend developer with over 3 years of Professional Experience in bringing the  <strong>Wireframes</strong>
+            A frontend developer with over 3 years of Professional Experience in bringing the  <strong>Wireframes</strong> 
             of the <strong>UI/UX Designer</strong> to Life through JavaScript, frameworks and libraries. As well as collaborating
             with the <strong>Backend Team</strong> to create a stellar finished Product.
 
